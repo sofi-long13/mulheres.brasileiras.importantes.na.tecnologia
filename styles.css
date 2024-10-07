@@ -1,0 +1,115 @@
+@font-face {
+    font-family: titulo;
+    src: url(./starborn/Starborn.ttf);
+    
+}
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffddf3;
+    color:#a64591a7;
+}
+
+header {
+    background-color: #de93cd;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family:titulo;
+    background: url(https://img.freepik.com/vetores-gratis/fundo-de-aquarela-rosa-pintado-a-mao-detalhado_1048-17039.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:  #ffd1f9;
+    text-decoration: none;
+}
+
+main {
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+h2 {
+    color: #ed8dd9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #fdcdff;
+    padding: 10px;
+    text-align: left;
+}
+
+figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-image:#ffb8f3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid hsl(310, 100%, 86%);
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff95dc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #ff95dc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
